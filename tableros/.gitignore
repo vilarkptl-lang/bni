@@ -1,0 +1,14 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+*.pem
+*.key
+.secure-vault/
+/data.json
+envios.txt
+procesadas.txt
+*-seguimientos-*/
+backup*/
+*.zip

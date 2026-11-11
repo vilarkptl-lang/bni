@@ -1,0 +1,20 @@
+{
+  "generado_en": "fixtures de ejemplo (no son casos reales)",
+  "regla": "Solo demostración. No enviar WhatsApp.",
+  "casos": [
+    {
+      "id_propuesta": "1001-luismolina-0",
+      "contacto": "Luis Molina (EJEMPLO)",
+      "miembro": "Ana Pérez (EJEMPLO)",
+      "borrador": "Hola Luis, ¿cómo estás? ¿Sí te pasé el contacto de Ana? Para que puedan platicar. Venga",
+      "nota": "Ejemplo: no presume que el contacto haya sido entregado."
+    },
+    {
+      "id_propuesta": "1002-sofialama-0",
+      "contacto": "Sofía Lama (EJEMPLO)",
+      "miembro": "Marta Ríos (EJEMPLO)",
+      "borrador": "Hola Sofía, ¿cómo estás? ¿Pudiste contactar a Marta? ¿Cómo les fue?",
+      "nota": "Ejemplo de seguimiento."
+    }
+  ]
+}

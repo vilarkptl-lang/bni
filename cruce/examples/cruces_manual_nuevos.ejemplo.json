@@ -1,0 +1,19 @@
+{
+  "_comentario": "Cruces nuevos por nombre de contacto (como en build2.py). Ejemplo ficticio.",
+  "cruces": [
+    {
+      "contacto": "Luis Molina (EJEMPLO)",
+      "miembro_prefijo": "Ana Pérez",
+      "direccion": "Socio de referencia",
+      "calidad": 4,
+      "por_que": "Ejemplo ficticio de intercambio de referencias entre imprenta y diseño."
+    },
+    {
+      "contacto": "Sofía Lama (EJEMPLO)",
+      "miembro_prefijo": "Marta Ríos",
+      "direccion": "Prospecto para el miembro",
+      "calidad": 3,
+      "por_que": "Ejemplo ficticio de prospecto de producción."
+    }
+  ]
+}

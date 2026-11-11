@@ -1,0 +1,10 @@
+{
+  "_comentario": "Pestaña de prospectos propios (no son cruces del capítulo). Ejemplo ficticio.",
+  "prospectos": [
+    {
+      "contacto": "Sofía Lama (EJEMPLO)",
+      "prioridad": 3,
+      "necesidad": "Ejemplo: consulta sobre financiamiento de equipo. No es un caso real."
+    }
+  ]
+}

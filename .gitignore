@@ -1,0 +1,47 @@
+# Dependencias y artefactos
+node_modules/
+.wrangler/
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+
+# Secretos y entorno
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+*.age
+.secure-vault/
+secrets/
+
+# Datos reales (contactos, miembros, cruces, exports, Excel)
+data.json
+!**/fixtures/data.json
+!**/examples/**
+members.json
+roster.json
+wa_personal_contacts.json
+cruces.json
+cruces_prev.json
+cruces_manual.json
+cruces_manual_nuevos.json
+prospectos_vilar.json
+roles.json
+m_*.json
+*.xlsx
+*.csv
+*.txt
+!requirements.txt
+envios.txt
+procesadas.txt
+*-seguimientos-*/
+backup*/
+state-*.json
+*-backup.json
+mcp-wa-recursos.json
+*.har
+exports/
+chats/
+sesiones/

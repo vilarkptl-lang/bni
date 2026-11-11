@@ -1,0 +1,66 @@
+[
+  {
+    "miembro": "Ana Pérez (EJEMPLO)",
+    "empresa": "Taller Demo",
+    "giro": "Diseño gráfico (ejemplo)",
+    "tel": "5500000001",
+    "mid": "1001",
+    "info": {
+      "giro": "Diseño gráfico",
+      "empresa": "Taller Demo",
+      "telefonos": [
+        "5500000001"
+      ],
+      "email": "ana.ejemplo@example.com",
+      "web": "https://example.com",
+      "busca": "Ejemplo ficticio de perfil de miembro.",
+      "descripcion": "Datos de demostración. No corresponden a una persona real."
+    },
+    "props": [
+      {
+        "contacto": "Luis Molina (EJEMPLO)",
+        "telefono": "+52 55 0000 0002",
+        "calidad": 3,
+        "tipo": "Socio de referencia",
+        "motivo": "Ejemplo ficticio para el repositorio. No es un contacto real.",
+        "borrador": "Hola Ana, ¿cómo estás? Te quiero presentar a Luis Molina. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono": "ejemplo",
+        "pid": "1001-luismolina-0",
+        "borrador_contraparte": "Hola Luis, ¿cómo estás? Te quiero presentar a Ana Pérez, de Taller Demo. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono_miembro": "ejemplo"
+      }
+    ]
+  },
+  {
+    "miembro": "Marta Ríos (EJEMPLO)",
+    "empresa": "Estudio Norte",
+    "giro": "Producción audiovisual (ejemplo)",
+    "tel": "5500000003",
+    "mid": "1002",
+    "info": {
+      "giro": "Producción audiovisual",
+      "empresa": "Estudio Norte",
+      "telefonos": [
+        "5500000003"
+      ],
+      "email": "marta.ejemplo@example.com",
+      "web": "",
+      "busca": "Ejemplo ficticio de referido ideal.",
+      "descripcion": "Datos de demostración. No corresponden a una persona real."
+    },
+    "props": [
+      {
+        "contacto": "Sofía Lama (EJEMPLO)",
+        "telefono": "+52 55 0000 0004",
+        "calidad": 4,
+        "tipo": "Prospecto para el miembro",
+        "motivo": "Ejemplo ficticio de prospecto. No es un caso real.",
+        "borrador": "Hola Marta, ¿cómo estás? Te quiero presentar a Sofía Lama. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono": "ejemplo",
+        "pid": "1002-sofialama-0",
+        "borrador_contraparte": "Hola Sofía, ¿cómo estás? Te quiero presentar a Marta Ríos, de Estudio Norte. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono_miembro": "ejemplo"
+      }
+    ]
+  }
+]

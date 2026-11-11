@@ -1,0 +1,100 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>BNI · Referidos propuestos</title>
+<style>body{font-family:system-ui,sans-serif;margin:0;background:#f5f6f8;color:#222}header{background:#b5121b;color:#fff;padding:16px 20px}h1{margin:0;font-size:20px}
+.bar{display:flex;gap:8px;padding:12px 20px;flex-wrap:wrap}input,select{padding:8px;font-size:15px;border:1px solid #ccc;border-radius:6px}input{flex:1;min-width:200px}
+.m{background:#fff;margin:12px 20px;border-radius:8px;padding:14px;box-shadow:0 1px 3px #0002}.m h2{margin:0 0 4px;font-size:17px}.g{color:#666;font-size:14px}
+.p{border-top:1px solid #eee;padding:10px 0}.t{font-size:12px;padding:2px 6px;border-radius:4px;background:#eef;margin-left:6px}.tp{background:#fff3cd}
+.dr{background:#f0f7f0;border-radius:6px;padding:8px;margin-top:6px;font-size:14px;white-space:pre-wrap}button{margin-top:4px;padding:4px 10px;cursor:pointer}.info{background:#fafafa;border:1px solid #eee;border-radius:6px;padding:8px;margin:8px 0;font-size:13px}.cb{font-size:13px;margin-left:6px}.cb.has{background:#b5121b;color:#fff;border:0;border-radius:4px;font-weight:600}.th{margin-top:6px;font-size:13px}.th .c{border-left:3px solid #b5121b;padding:4px 8px;margin:4px 0;background:#fff}.th .r{border-left:3px solid #2a7;background:#eef8f0;padding:4px 8px;margin:2px 0 4px 14px}.st{font-size:11px;color:#777}.th textarea{width:100%;box-sizing:border-box;min-height:50px;font:inherit}.lb{font-size:12px;font-weight:600;color:#555;margin-top:8px}.dr2{background:#eef3fb}.apb{margin-top:8px}.apb button{margin-right:6px;padding:5px 12px;border-radius:5px;border:1px solid #aaa;background:#fff}.apb .ok.on{background:#1e8e3e;color:#fff;border-color:#1e8e3e}.apb .no.on{background:#b5121b;color:#fff;border-color:#b5121b}.p-aprobada{background:#f1fbf3}.p-rechazada{background:#fdf1f1;opacity:.85}.st-aprobada{background:#1e8e3e!important;color:#fff}.st-rechazada{background:#b5121b!important;color:#fff}.sw{position:relative;display:inline-block;width:44px;height:24px;vertical-align:middle}.sw input{opacity:0;width:0;height:0}.sl{position:absolute;inset:0;background:#bbb;border-radius:24px;cursor:pointer;transition:.2s}.sl:before{content:"";position:absolute;width:18px;height:18px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}.sw input:checked+.sl{background:#1e8e3e}.sw input:checked+.sl:before{transform:translateX(20px)}.n{color:#555;font-size:13px;padding:0 20px}.sg{margin-top:10px;padding:8px;border:1px solid #c5d4e8;background:#f7f9fd;border-radius:6px}.sg .hist .item{border-left:3px solid #4a6fa5;padding:4px 8px;margin:4px 0;background:#fff;white-space:pre-wrap;font-size:14px}.sg textarea{width:100%;box-sizing:border-box;min-height:50px;font:inherit;margin-top:6px}</style></head><body>
+<header><h1>BNI Naucalpan–Huixquilucan · Referidos propuestos desde tu WhatsApp personal</h1></header>
+<div class="bar"><input id="q" placeholder="Buscar miembro, contacto, giro o motivo..."><select id="f"><option value="">Todos los miembros</option></select></div>
+<p class="n">Borradores solamente: nada se envía desde aquí. La etiqueta amarilla indica de dónde sale el tono de cada borrador. Los seguimientos tienen su propio historial y su propia aprobación; aprobar un seguimiento solo registra tu decisión; no envía nada.</p><div id="l"></div>
+<script>const D=[
+  {
+    "miembro": "Ana Pérez (EJEMPLO)",
+    "empresa": "Taller Demo",
+    "giro": "Diseño gráfico (ejemplo)",
+    "tel": "5500000001",
+    "mid": "1001",
+    "info": {
+      "giro": "Diseño gráfico",
+      "empresa": "Taller Demo",
+      "telefonos": [
+        "5500000001"
+      ],
+      "email": "ana.ejemplo@example.com",
+      "web": "https://example.com",
+      "busca": "Ejemplo ficticio de perfil de miembro.",
+      "descripcion": "Datos de demostración. No corresponden a una persona real."
+    },
+    "props": [
+      {
+        "contacto": "Luis Molina (EJEMPLO)",
+        "telefono": "+52 55 0000 0002",
+        "calidad": 3,
+        "tipo": "Socio de referencia",
+        "motivo": "Ejemplo ficticio para el repositorio. No es un contacto real.",
+        "borrador": "Hola Ana, ¿cómo estás? Te quiero presentar a Luis Molina. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono": "ejemplo",
+        "pid": "1001-luismolina-0",
+        "borrador_contraparte": "Hola Luis, ¿cómo estás? Te quiero presentar a Ana Pérez, de Taller Demo. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono_miembro": "ejemplo"
+      }
+    ]
+  },
+  {
+    "miembro": "Marta Ríos (EJEMPLO)",
+    "empresa": "Estudio Norte",
+    "giro": "Producción audiovisual (ejemplo)",
+    "tel": "5500000003",
+    "mid": "1002",
+    "info": {
+      "giro": "Producción audiovisual",
+      "empresa": "Estudio Norte",
+      "telefonos": [
+        "5500000003"
+      ],
+      "email": "marta.ejemplo@example.com",
+      "web": "",
+      "busca": "Ejemplo ficticio de referido ideal.",
+      "descripcion": "Datos de demostración. No corresponden a una persona real."
+    },
+    "props": [
+      {
+        "contacto": "Sofía Lama (EJEMPLO)",
+        "telefono": "+52 55 0000 0004",
+        "calidad": 4,
+        "tipo": "Prospecto para el miembro",
+        "motivo": "Ejemplo ficticio de prospecto. No es un caso real.",
+        "borrador": "Hola Marta, ¿cómo estás? Te quiero presentar a Sofía Lama. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono": "ejemplo",
+        "pid": "1002-sofialama-0",
+        "borrador_contraparte": "Hola Sofía, ¿cómo estás? Te quiero presentar a Marta Ríos, de Estudio Norte. Es de toda mi confianza. ¿Te parece si los conecto?",
+        "tono_miembro": "ejemplo"
+      }
+    ]
+  }
+];const f=document.getElementById('f'),q=document.getElementById('q'),l=document.getElementById('l');
+D.forEach((m,i)=>{const o=document.createElement('option');o.value=i;o.textContent=m.miembro;f.appendChild(o)});
+const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function r(){const s=q.value.toLowerCase(),fi=f.value;let h='';D.forEach((m,i)=>{if(fi!==''&&+fi!==i)return;const ps=m.props.filter(p=>!s||JSON.stringify([m.miembro,m.empresa,m.giro,p]).toLowerCase().includes(s));if(!ps.length)return;
+h+=`<div class="m"><h2>${e(m.miembro)}</h2><div class="g">${e(m.giro)}${m.empresa?' · '+e(m.empresa):''} · ${ps.length} propuesta(s)</div><div class="info" data-m="${e(m.mid)}"><b>Giro:</b> ${e(m.info.giro)} · <b>Empresa:</b> ${e(m.info.empresa)}<br><b>Tel:</b> ${e((m.info.telefonos||[]).join(', '))}${m.info.email?' · '+e(m.info.email):''}${m.info.busca?'<br><b>Busca (referido ideal):</b> '+e(m.info.busca):''}${th(m,null)}</div>`+ps.map(p=>`<div class="p ${A[p.pid]?'p-'+A[p.pid].estado:''}"><b>${e(p.contacto)}</b>${A[p.pid]?`<span class="t st-${A[p.pid].estado}">${A[p.pid].estado==='aprobada'?'✅ Aprobada':'❌ No aprobada'}</span>`:''} <span class="g">${e(p.telefono)}</span><span class="t">${e(p.tipo)}</span><span class="t">calidad ${p.calidad}/5</span><div>${e(p.motivo)}</div><div class="lb">Mensaje para ${e(m.miembro)} <span class="t">sin historial</span></div><div class="dr">${e(p.borrador)}</div><button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado'">Copiar</button><div class="lb">Mensaje para ${e(p.contacto)} <span class="t tp">${e(p.tono)}</span></div><div class="dr dr2">${e(p.borrador_contraparte||'')}</div><button onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);this.textContent='Copiado'">Copiar</button>${ap(m,p)}${sg(m,p)}${th(m,p)}</div>`).join('')+'</div>'});const tot=C.length,pe=C.filter(c=>c.status==='pendiente').length,av=Object.values(A),na=av.filter(a=>a.estado==='aprobada').length,nr=av.filter(a=>a.estado==='rechazada').length;l.innerHTML=(CERR?`<p class="n" style="color:#b5121b">${e(CERR)}</p>`:'')+`<p class="n"><b>✅ ${na} aprobada(s) · ❌ ${nr} no aprobada(s) · ${D.reduce((n,m)=>n+(m.props||[]).length,0)-na-nr} sin decidir</b> (aprobar solo registra tu decisión; no envía nada)</p>`+(tot?`<p class="n"><b>💬 ${tot} comentario(s)</b>${pe?', '+pe+' pendiente(s)':''}: los hilos con comentarios aparecen abiertos.</p>`:'')+h||'<p class="n">Sin resultados.</p>'}
+const R0=r;r=function(){const v={};document.querySelectorAll('textarea').forEach(t=>v[t.id]=t.value);R0();for(const id in v){const t=document.getElementById(id);if(t)t.value=v[id]}};q.oninput=()=>r();f.onchange=()=>r();
+let A={},C=[],SG={},ASG={},OPEN=new Set(),CLOSED=new Set(),CERR='';const isOpen=(k,n)=>OPEN.has(k)||(n>0&&!CLOSED.has(k));
+function th(m,p){const k=m.mid+'|'+(p?p.pid:''),cs=C.filter(c=>c.id_miembro===m.mid&&(c.id_propuesta||null)===(p?p.pid:null)),pend=cs.filter(c=>c.status==='pendiente').length;
+return `<div><button class="cb${cs.length?' has':''}" data-k="${e(k)}" onclick="tg(this.dataset.k)">💬 Comentarios (${cs.length}${pend?', '+pend+' pendiente(s)':''})</button>`+(isOpen(k,cs.length)?`<div class="th">`+cs.map(c=>`<div class="c"><span class="st">#${c.id} · ${e(c.email||'')} · ${new Date(c.created_at).toLocaleString('es-MX')} · ${e(c.status)}</span><br>${e(c.texto)}</div>`+(c.respuesta?`<div class="r"><span class="st">Respuesta del agente</span><br>${e(c.respuesta)}</div>`:'')).join('')+`<textarea id="t_${e(k)}" placeholder="Escribe un comentario..."></textarea><button data-k="${e(k)}" data-mi="${e(m.miembro)}" data-co="${e(p?p.contacto:'')}" onclick="send(this)">Enviar comentario</button></div>`:'')+'</div>'}
+function ap(m,p){const x=A[p.pid],s=x&&x.estado,on=s==='aprobada';return `<div class="apb"><label class="sw"><input type="checkbox" ${on?'checked':''} data-p="${e(p.pid)}" data-m="${e(m.mid)}" data-mi="${e(m.miembro)}" data-co="${e(p.contacto)}" onchange="setA(this)"><span class="sl"></span></label> <b>${on?'Aprobada':(s==='rechazada'?'No aprobada':'Aprobada: sin decidir')}</b>${x?`<span class="st"> · ${e(x.email||'')} · ${new Date(x.updated_at).toLocaleString('es-MX')}</span>`:''}</div>`}
+function sg(m,p){const list=(SG[p.pid]||[]).map(s=>`<div class="item"><span class="st">${e(new Date(s.created_at).toLocaleString('es-MX'))}</span><br>${e(s.texto)}</div>`).join('')||'<div class="st">Sin borradores de seguimiento todavía.</div>';const x=ASG[p.pid],s=x&&x.estado,on=s==='aprobada',es=A[p.pid]&&A[p.pid].estado;return `<div class="sg"><div class="lb">Seguimiento <span class="t">no se envía desde aquí</span></div><p class="n" style="padding:0">Aprobar el seguimiento solo registra tu decisión; no envía nada. Este historial no modifica los mensajes de presentación.</p><div class="st">Estado de la presentación: ${e(es==='aprobada'?'Aprobada':es==='rechazada'?'No aprobada':'sin decidir')}</div><div class="hist">${list}</div><textarea id="sg_${e(p.pid)}" placeholder="Nuevo borrador de seguimiento..."></textarea><button data-p="${e(p.pid)}" data-m="${e(m.mid)}" data-mi="${e(m.miembro)}" data-co="${e(p.contacto)}" onclick="sendSg(this)">Guardar borrador de seguimiento</button><div class="apb"><label class="sw"><input type="checkbox" ${on?'checked':''} data-p="${e(p.pid)}" data-m="${e(m.mid)}" data-mi="${e(m.miembro)}" data-co="${e(p.contacto)}" onchange="setAS(this)"><span class="sl"></span></label> <b>${on?'Seguimiento aprobado':(s==='rechazada'?'Seguimiento no aprobado':'Seguimiento: sin decidir')}</b>${x?`<span class="st"> · ${e(x.email||'')} · ${new Date(x.updated_at).toLocaleString('es-MX')}</span>`:''}</div></div>`}
+async function sendSg(b){const t=document.getElementById('sg_'+b.dataset.p);if(!t||!t.value.trim())return;b.disabled=true;const x=await fetch('/api/seguimientos',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify({id_propuesta:b.dataset.p,id_miembro:b.dataset.m,miembro:b.dataset.mi,contacto:b.dataset.co,texto:t.value})});if(x.ok){upSg(await x.json());t.value='';}else{alert('No se pudo guardar el seguimiento');b.disabled=false}}
+function upSg(s){const arr=SG[s.id_propuesta]||[];if(!arr.some(y=>y.id===s.id))arr.push(s);SG[s.id_propuesta]=arr;r()}
+async function setAS(b){const est=b.checked?'aprobada':'rechazada';b.disabled=true;const x=await fetch('/api/aprobaciones-seguimiento',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify({id_propuesta:b.dataset.p,id_miembro:b.dataset.m,miembro:b.dataset.mi,contacto:b.dataset.co,estado:est})});if(x.ok)upAS(await x.json());else{alert('No se pudo guardar');b.checked=!b.checked;b.disabled=false}}
+function upAS(a){if(a.estado)ASG[a.id_propuesta]=a;else delete ASG[a.id_propuesta];r()}
+async function setA(b){const est=b.checked?'aprobada':'rechazada';b.disabled=true;const x=await fetch('/api/aprobaciones',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify({id_propuesta:b.dataset.p,id_miembro:b.dataset.m,miembro:b.dataset.mi,contacto:b.dataset.co,estado:est})});if(x.ok)upA(await x.json());else{alert('No se pudo guardar');b.checked=!b.checked;b.disabled=false}}
+function upA(a){if(a.estado)A[a.id_propuesta]=a;else delete A[a.id_propuesta];r()}
+function tg(k){const n=C.filter(c=>c.id_miembro+'|'+(c.id_propuesta||'')===k).length;if(isOpen(k,n)){OPEN.delete(k);CLOSED.add(k)}else{CLOSED.delete(k);OPEN.add(k)}r()}
+async function send(b){const k=b.dataset.k,t=document.getElementById('t_'+k),[mid,pid]=k.split('|');if(!t.value.trim())return;b.disabled=true;
+const x=await fetch('/api/comments',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({id_miembro:mid,id_propuesta:pid||null,miembro:b.dataset.mi,contacto:b.dataset.co||null,texto:t.value})});
+if(x.ok){up(await x.json())}else{alert('No se pudo guardar el comentario');b.disabled=false}}
+function up(c){const i=C.findIndex(y=>y.id===c.id);i<0?C.push(c):C[i]=c;r()}
+function load(n=0){fetch('/api/comments',{credentials:'same-origin',cache:'no-store'}).then(x=>{if(!x.ok)throw new Error('HTTP '+x.status);return x.json()}).then(a=>{C=Array.isArray(a)?a:[];CERR='';r()}).catch(err=>{CERR='No se pudieron cargar los comentarios ('+err.message+'). Reintentando…';r();if(n<5)setTimeout(()=>load(n+1),2000*(n+1))})}load();fetch('/api/aprobaciones',{credentials:'same-origin',cache:'no-store'}).then(x=>x.ok?x.json():[]).then(a=>{A={};(a||[]).forEach(y=>A[y.id_propuesta]=y);r()}).catch(()=>{});fetch('/api/seguimientos',{credentials:'same-origin',cache:'no-store'}).then(x=>x.ok?x.json():[]).then(a=>{SG={};(a||[]).forEach(y=>{(SG[y.id_propuesta]=SG[y.id_propuesta]||[]).push(y)});r()}).catch(()=>{});fetch('/api/aprobaciones-seguimiento',{credentials:'same-origin',cache:'no-store'}).then(x=>x.ok?x.json():[]).then(a=>{ASG={};(a||[]).forEach(y=>ASG[y.id_propuesta]=y);r()}).catch(()=>{});
+(function ws(){const s=new WebSocket((location.protocol==='https:'?'wss://':'ws://')+location.host+'/ws');s.onmessage=ev=>{try{const o=JSON.parse(ev.data);if(o.tipo==='snapshot'&&Array.isArray(o.cs)){C=o.cs;if(Array.isArray(o.aps)){A={};o.aps.forEach(y=>A[y.id_propuesta]=y)}if(Array.isArray(o.segs)){SG={};o.segs.forEach(y=>{(SG[y.id_propuesta]=SG[y.id_propuesta]||[]).push(y)})}if(Array.isArray(o.apsSeg)){ASG={};o.apsSeg.forEach(y=>ASG[y.id_propuesta]=y)}CERR='';r()}else if(o.tipo==='aprobacion')upA(o.a);else if(o.tipo==='comentario')up(o.c);else if(o.tipo==='seguimiento')upSg(o.s);else if(o.tipo==='aprobacion_seguimiento')upAS(o.a)}catch{}};const iv=setInterval(()=>{try{s.send('ping')}catch{}},30000);s.onclose=()=>{clearInterval(iv);setTimeout(ws,3000)}})();
+const qs=new URLSearchParams(location.search);if(qs.get('m')){const i=D.findIndex(m=>m.mid===qs.get('m'));if(i>=0)f.value=i;const pk=qs.get('p');OPEN.add(qs.get('m')+'|'+(pk||''))}
+r();</script></body></html>

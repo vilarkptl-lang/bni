@@ -1,0 +1,11 @@
+{
+  "name": "bni-referidos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/seguimientos.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.1"
+  }
+}

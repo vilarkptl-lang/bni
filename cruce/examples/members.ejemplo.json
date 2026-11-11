@@ -1,0 +1,84 @@
+{
+  "chapter": "Capítulo Ejemplo",
+  "region": "Mexico",
+  "export_date": "2026-01-01",
+  "member_count": 2,
+  "members": [
+    {
+      "memberId": 1001,
+      "name": "Ana Pérez (EJEMPLO)",
+      "phones": [
+        "5500000001"
+      ],
+      "phones_e164": [
+        "+525500000001"
+      ],
+      "phones_unparsed": [],
+      "whatsapp_link": "",
+      "email": "ana.ejemplo@example.com",
+      "company": "Taller Demo",
+      "industry": "Diseño",
+      "classification": "Diseño gráfico",
+      "classification_detail": "",
+      "website": "https://example.com",
+      "address": "",
+      "city": "Ciudad Ejemplo",
+      "keywords": "diseño, marca",
+      "business_description": "Datos de demostración. No corresponden a una persona real.",
+      "gains": {
+        "goals": "Ejemplo de metas.",
+        "accomplishments": "",
+        "interests": "",
+        "networks": "",
+        "skills": ""
+      },
+      "tops": {
+        "ideal_referral": "Imprentas (ejemplo)",
+        "top_product": "Identidad visual",
+        "top_problem_solved": "",
+        "favorite_bni_story": "",
+        "ideal_referral_partner": "Producción audiovisual"
+      },
+      "commercials": [],
+      "leadership_role": "Presidente"
+    },
+    {
+      "memberId": 1002,
+      "name": "Marta Ríos (EJEMPLO)",
+      "phones": [
+        "5500000003"
+      ],
+      "phones_e164": [
+        "+525500000003"
+      ],
+      "phones_unparsed": [],
+      "whatsapp_link": "",
+      "email": "marta.ejemplo@example.com",
+      "company": "Estudio Norte",
+      "industry": "Medios",
+      "classification": "Producción audiovisual",
+      "classification_detail": "",
+      "website": "",
+      "address": "",
+      "city": "Ciudad Ejemplo",
+      "keywords": "video, foto",
+      "business_description": "Datos de demostración. No corresponden a una persona real.",
+      "gains": {
+        "goals": "",
+        "accomplishments": "",
+        "interests": "",
+        "networks": "",
+        "skills": ""
+      },
+      "tops": {
+        "ideal_referral": "Marcas que rediseñan",
+        "top_product": "Video corporativo",
+        "top_problem_solved": "",
+        "favorite_bni_story": "",
+        "ideal_referral_partner": "Diseño gráfico"
+      },
+      "commercials": [],
+      "leadership_role": "Vicepresidente"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_comentario": "Índices wa_index se refieren a wa_personal_contacts.json. Esto es un ejemplo ficticio.",
+  "cruces": [
+    {
+      "wa_index": 1,
+      "miembro_prefijo": "Ana Pérez",
+      "direccion": "Socio de referencia",
+      "calidad": 4,
+      "por_que": "Ejemplo: Luis ofrece impresión; Ana busca imprentas como socio de referencia."
+    },
+    {
+      "wa_index": 2,
+      "miembro_prefijo": "Marta Ríos",
+      "direccion": "Prospecto para el miembro",
+      "calidad": 3,
+      "por_que": "Ejemplo: Sofía produce video; podría ser prospecto para Estudio Norte."
+    }
+  ],
+  "miembros_bni_en_whatsapp": {
+    "0": "Ana Pérez (EJEMPLO) — Diseño gráfico"
+  },
+  "visitantes": {},
+  "excluidos": {}
+}

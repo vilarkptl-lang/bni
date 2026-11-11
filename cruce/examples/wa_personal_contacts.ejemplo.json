@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Ana Pérez (EJEMPLO)",
+    "phone": "+52 55 0000 0001",
+    "about": "",
+    "business_info": "",
+    "relationship": "bni chapter member (example)",
+    "work_profile": "Diseño gráfico en Taller Demo (ejemplo).",
+    "needs_or_offers": "Busca imprentas (ejemplo).",
+    "evidence": "ejemplo",
+    "last_message_date": "2026-01-01"
+  },
+  {
+    "name": "Luis Molina (EJEMPLO)",
+    "phone": "+52 55 0000 0002",
+    "about": "",
+    "business_info": "",
+    "relationship": "professional (example)",
+    "work_profile": "Imprenta de corto tiraje (ejemplo).",
+    "needs_or_offers": "Ofrece impresión para marcas (ejemplo).",
+    "evidence": "ejemplo",
+    "last_message_date": "2026-01-02"
+  },
+  {
+    "name": "Sofía Lama (EJEMPLO)",
+    "phone": "+52 55 0000 0004",
+    "about": "",
+    "business_info": "",
+    "relationship": "prospect (example)",
+    "work_profile": "Producción de video (ejemplo).",
+    "needs_or_offers": "Busca financiamiento de equipo (ejemplo).",
+    "evidence": "ejemplo",
+    "last_message_date": "2026-01-03"
+  }
+]
