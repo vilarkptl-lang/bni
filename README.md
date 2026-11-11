@@ -4,7 +4,7 @@ Código de los flujos BNI: leer el capítulo, extraer contactos de WhatsApp (sol
 
 **Este repositorio no contiene datos personales ni secretos.** Los contactos, miembros, chats, Excel, sesiones, tokens y claves viven fuera de git: en un directorio de datos (`BNI_DATA_DIR`), en variables de entorno o en un gestor de secretos / bindings. Los JSON de `examples/` y `fixtures/` están marcados como EJEMPLO y usan teléfonos y correos ficticios (`@example.com`, `550000…`).
 
-Sirve para un miembro de **otro capítulo** que quiera el mismo flujo con el agente de IA que prefiera (Cursor, Claude Code, ChatGPT/Codex u otro) o a mano. Las `skills/*/SKILL.md` son instrucciones en lenguaje natural: cualquier agente puede leerlas y seguirlas; no dependen de un producto concreto.
+Sirve para un miembro de **otro capítulo** que quiera el mismo flujo con el agente de IA que prefiera o a mano. Las `skills/*/SKILL.md` son instrucciones en lenguaje natural: cualquier agente puede leerlas y seguirlas; no dependen de un producto concreto.
 
 ## Flujo completo
 
@@ -66,17 +66,14 @@ lectura-capitulo/  →  members.json     cruce/add.py  →  wa_personal_contacts
 
 ## Cómo obtener el código (clonar o copiar)
 
-Este repo vive en Origin (`https://origin.cursor.com/vilar-kptl/BNI.git`). Origin, hoy, solo ofrece visibilidad `private` o `internal` (equipo) y **no tiene forks**. No hay visibilidad pública.
+Solo necesitas git. Clona el repositorio o haz fork en GitHub:
 
-Opciones:
+```bash
+git clone https://github.com/vilarkptl-lang/bni.git
+cd bni
+```
 
-1. **Clonar** si te dieron acceso al namespace o al repo:
-   ```bash
-   git clone https://origin.cursor.com/vilar-kptl/BNI.git
-   cd BNI
-   ```
-2. **Copiar el árbol** (zip o `cp -a`) a una carpeta tuya y, si quieres historial propio, `git init`.
-3. **Publicar tu copia** en GitHub, GitLab u otro forge y hacer fork ahí. Este repositorio de Origin no sustituye ese paso.
+También puedes copiar el árbol (zip o `cp -a`) a una carpeta tuya y hacer `git init` para tener historial propio.
 
 Trabaja en tu copia. No subas tus datos reales a este remoto.
 
@@ -192,7 +189,7 @@ No envía WhatsApp. La aprobación de un seguimiento solo registra la decisión.
 
 ## Cómo pedirle a tu agente que use las skills
 
-Las `SKILL.md` son el procedimiento. Pon el repo (o al menos `skills/`) en el contexto de tu agente (o del asistente que uses) y dile que las lea. En Cursor o Claude Code puedes copiar `skills/<nombre>/` a la carpeta de skills del producto; en ChatGPT, Codex u otro asistente, pega o adjunta el archivo y pide que lo siga al pie de la letra.
+Las `SKILL.md` son el procedimiento. Pon el repo (o al menos `skills/`) en el contexto de tu agente (o del asistente que uses) y dile que las lea. Si tu agente tiene una carpeta de skills, copia ahí `skills/<nombre>/`; si no, pega o adjunta el archivo y pide que lo siga al pie de la letra.
 
 | Skill | Carpeta | Cuándo |
 |---|---|---|
