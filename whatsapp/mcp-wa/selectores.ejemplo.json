@@ -1,0 +1,25 @@
+{
+  "_descripcion": "Copia este archivo a selectores.json y llena los campos con lo observado en inspeccion_ro.py. Cada localizador lleva UNA sola de: css, role (+ name opcional), testid, texto, aria. {nombre} se sustituye por el nombre exacto del chat. Un campo vacio significa 'no configurado': la herramienta que lo necesite falla con un error claro. Los valores de abajo son FICTICIOS o vacios; no son selectores reales de WhatsApp.",
+
+  "lista_chats": {"_descripcion": "Contenedor de la lista de chats (ej. role 'grid' o testid 'ejemplo-testid').", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "item_chat": {"_descripcion": "Elemento clicable del chat cuyo nombre es {nombre}. Ej. css '[title=\"{nombre}\"]'.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "buscador_chats": {"_descripcion": "Opcional: caja de busqueda de chats; se usa solo si el chat no esta visible.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "encabezado_chat": {"_descripcion": "Elemento del encabezado del chat abierto que muestra {nombre}. Confirma que el chat correcto esta abierto.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "panel_mensajes": {"_descripcion": "Contenedor con scroll de los mensajes del chat abierto.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "mensaje": {"_descripcion": "Cada fila de mensaje visible (desde la pagina).", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "mensaje_texto": {"_descripcion": "Dentro de una fila: el texto del mensaje.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "mensaje_hora": {"_descripcion": "Opcional. Dentro de una fila: la hora.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "mensaje_id_atributo": "",
+  "direccion": {"_descripcion": "Opcional. Selectores CSS que la fila cumple (ella o un descendiente) si es saliente o entrante.", "saliente_css": "", "entrante_css": ""},
+
+  "cargar_mas": {"_descripcion": "modo 'scroll' (sube panel_mensajes) o 'clic' (pulsa el localizador de aqui).", "modo": "", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "adjunto": {"_descripcion": "Dentro de una fila: el bloque del adjunto.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "adjunto_nombre": {"_descripcion": "Dentro del adjunto: el nombre de archivo visible.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "boton_descargar": {"_descripcion": "Dentro del adjunto: el boton de descarga.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "compositor": {"_descripcion": "Caja de texto del mensaje. modo_escritura: 'fill' o 'insertar'.", "modo_escritura": "fill", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "envio": {"_descripcion": "SOLO lo usa el CLI local enviar_borrador.py, nunca el servidor MCP. modo 'enter' (tecla en el compositor) o 'boton' (pulsa el localizador de aqui).", "modo": "", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""}
+}

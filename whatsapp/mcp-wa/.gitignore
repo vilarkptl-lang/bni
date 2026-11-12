@@ -1,0 +1,8 @@
+.env
+env.local
+selectores.json
+inspeccion_ro*.json
+borradores/
+descargas/
+__pycache__/
+*.pyc

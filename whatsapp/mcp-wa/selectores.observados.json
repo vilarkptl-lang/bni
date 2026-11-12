@@ -1,0 +1,25 @@
+{
+  "_descripcion": "Selectores estructurales observados el 2026-11-11 en una inspeccion de solo lectura (data-testid, data-icon, roles y contenedores con scroll). Sin textos de chats, sin nombres, sin secretos. Copia este archivo a selectores.json para usarlo. Los campos vacios no se vieron con certeza en esa inspeccion: no se adivinan.",
+
+  "lista_chats": {"testid": "chat-list", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "item_chat": {"_descripcion": "El nombre del chat esta en el texto visible de cell-frame-title; no hay atributo title ni aria-label.", "css": "[data-testid=\"cell-frame-title\"]:text-is(\"{nombre}\")", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "buscador_chats": {"_descripcion": "chat-list-search-container existe como div, pero no se confirmo que sea una caja de busqueda editable.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "encabezado_chat": {"_descripcion": "El nombre del chat abierto esta en el texto visible de este testid, sin title ni aria-label.", "css": "[data-testid=\"conversation-info-header-chat-title-name\"]:text-is(\"{nombre}\")", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "panel_mensajes": {"_descripcion": "Unico contenedor con scroll de mensajes (scrollHeight > clientHeight).", "testid": "conversation-panel-messages", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "mensaje": {"testid": "msg-container", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "mensaje_texto": {"testid": "selectable-text", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "mensaje_hora": {"_descripcion": "msg-meta se vio en el DOM, pero no se confirmo que contenga la hora.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+  "mensaje_id_atributo": "",
+  "direccion": {"_descripcion": "Iconos tail-out (saliente) y tail-in (entrante) observados en el panel de mensajes.", "saliente_css": "[data-icon=\"tail-out\"]", "entrante_css": "[data-icon=\"tail-in\"]"},
+
+  "cargar_mas": {"_descripcion": "No hubo un boton claro de cargar mas. El gesto observado es subir el scroll de conversation-panel-messages.", "modo": "scroll", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "adjunto": {"_descripcion": "Tarjeta de documento, clicable (role y tabindex), vista en una de las cuentas.", "testid": "document-thumb", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "adjunto_nombre": {"testid": "document-thumb-details", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+  "boton_descargar": {"_descripcion": "La tarjeta document-thumb no tenia boton hijo de descarga. Se deja vacio.", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""},
+
+  "compositor": {"_descripcion": "conversation-compose-box-input: visible, contenteditable, editor Lexical (data-lexical-editor). insertar suele funcionar mejor que fill en Lexical.", "modo_escritura": "insertar", "testid": "conversation-compose-box-input", "css": "", "role": "", "name": "", "texto": "", "aria": ""},
+
+  "envio": {"_descripcion": "No se inspecciono un boton ni tecla de envio. El CLI local no enviara hasta completar este campo.", "modo": "", "css": "", "role": "", "name": "", "testid": "", "texto": "", "aria": ""}
+}

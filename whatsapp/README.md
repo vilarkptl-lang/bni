@@ -14,3 +14,5 @@ No extraen chats ni envían mensajes. Ver `../whatsapp-extraccion/` y `../docs/w
 - `MCP_WA_HOST`, `MCP_WA_SERVICE` — ruta HTTP del MCP
 - `VNC_HOST`, `ACCESS_EMAIL`, `ACCESS_OTP_IDP_ID` — ensayo opcional del visor
 - `MCP_PUERTO`, `MCP_HOST_PUBLICO` — `estado_navegador/estado_mcp.py`
+
+El MCP de lectura, cargar más, descargar y preparar borradores (sin envío por HTTP) está en `mcp-wa/`.
